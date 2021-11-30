@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imeg{
+    
+    display: flex;
+}
+.imeg>li{
+    list-style-type: none;
+    
+}
+.imeg99{
+    display: flex;
+   margin-top: 300px;
+   margin-left: -1335px;
+}
+.imeg99>li{
+    list-style-type: none;
+}
+.imeg1{
+height: 200px;
+width: 260px;
+margin-left: 5px;
+filter: grayscale(1);
+}
+.imeg1:hover{
+ filter: grayscale(0);
+ 
+}
+.imeg2{
+height: 300px;
+width: 260px;
+margin-left: 5px;
+filter: grayscale(1);
+object-fit: cover;
+}
+.imeg2:hover{
+    filter: grayscale(0);
+}
+.imeg3{
+    height: 200px;
+    width: 270px;
+    margin-left: 5px;
+    filter: grayscale(1);
+}
+.imeg3:hover{
+filter: grayscale(0);
+}
+.imeg4{
+    height: 200px;
+    width: 260px;
+    margin-left: 5px;
+    filter: grayscale(1);
+}
+.imeg4:hover{
+    filter: grayscale(0);
+}
+.imeg5{
+    height: 200px;
+    width: 260px;
+    margin-left: 5px;
+    filter: grayscale(1);
+}
+.imeg5:hover{
+    filter: grayscale(0);
+}
+.imeg6{
+    height: 200px;
+    width: 260px;
+    margin-left: 5px;
+    margin-top: -95px;
+    filter: grayscale(1);
+}
+.imeg6:hover{
+    filter: grayscale(0);
+   
+}
+.imeg7{
+    height: 200px;
+    width: 260px;
+    margin-left: 5px;
+    margin-top: 5px;
+    filter: grayscale(1);
+}
+.imeg7:hover{
+    filter: grayscale(0);
+    
+}

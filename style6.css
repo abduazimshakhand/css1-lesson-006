@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 700px;
+    height: 400px;
+    /* filter: saturate(200%); */
+    /* saturate: sariq va qizg'ich ranglarga yorqinlik beradi default: 100%  100%< ta'sir qiladi  */
+    /* filter: brightness(200%); */
+    /* brightness: oq va oq sarg'ich ranglarni va rasmni umumiy yorqinlik darajasini ko'paytiradi default: 100%  */
+    /* filter: contrast(200%); */
+    /* yorqin va qoramtir ranglarni orasidagi tafovutni oshirib beradi */
+    /* filter: invert(1); */
+    /* rentgenga o'xshatib effect beradi */
+    /* filter: opacity(1); */
+    /* rasmni ko'rinish darajasini bildiradi orqasidagi fon ko'rinib qoladi kamaygani sari.hiralashadi.   */
+    /* opacity: 0.4;   */  /* ikkinchi usul */
+    /* filter: sepia(1); */
+    /* rasmga retro effect beradi */
+    /* filter: drop-shadow(0px 0px 10px black); */
+    /* rasmga soya beradi */
+    /* box-shadow: 0px 0px 10px black; */
+    /* filter: hue-rotate(180deg); */
+    /* filter: grayscale(0.5); */
+    /* grayscale: rasmni kulrangga o'zgartiradi  */
+    /* filter: blur(1px); */
+    /* blur: rasmni xiralashtirish darajasi */
+    /* object-fit: contain; */
+    /* contain:  rasm to'liq ko'rinadi lekin berilgan razmerga to'liq tushmaydi  */
+    /* cover: rasm to'liq ko'rinmaydi lekin berilgan razmerga to'liq tushadi */
+
+
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.685);
+    position: fixed;
+    backdrop-filter: blur(2px) saturate(100%) ;
+}
